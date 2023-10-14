@@ -1,0 +1,15 @@
+Отключиться от сети - http://192.168.0.1/goform/goform_set_cmd_process?goformId=DISCONNECT_NETWORK
+Подключиться к сети - http://192.168.0.1/goform/goform_set_cmd_process?goformId=CONNECT_NETWORK
+Автоподключение - http://192.168.0.1/goform/goform_set_cmd_process?goformId=SET_CONNECTION_MODE&ConnectionMode=auto_dial
+Ручное подключение - http://192.168.0.1/goform/goform_set_cmd_process?goformId=SET_CONNECTION_MODE&ConnectionMode=manual_dial
+Выбор режима сети - http://192.168.0.1/goform/goform_set_cmd_process?goformId=SET_BEARER_PREFERENCE&BearerPreference=mode,
+где mode одно из:
+NETWORK_auto
+WCDMA_preferred
+GSM_preferred
+Only_GSM
+Only_WCDMA
+Only_LTE
+WCDMA_AND_GSM
+WCDMA_AND_LTE
+GSM_AND_LTE
